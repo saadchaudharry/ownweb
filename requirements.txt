@@ -2,7 +2,7 @@ beautifulsoup4==4.8.1
 certifi==2019.9.11
 cfe==0.0.15
 chardet==3.0.4
-Django==2.2.7
+Django==2.2.8
 django-crispy-forms==1.8.0
 djangorestframework==3.10.3
 idna==2.8
