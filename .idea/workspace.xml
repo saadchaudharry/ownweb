@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b308dbd-2ff2-45bc-abd7-0ac4d97ceafc" name="Default Changelist" comment="" />
+    <list default="true" id="2b308dbd-2ff2-45bc-abd7-0ac4d97ceafc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owneb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/owneb/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UwHdcXpkb2oyl04cHgZEz7BPuT" />
   <component name="PropertiesComponent">
@@ -73,10 +81,22 @@
       <option name="presentableId" value="Default" />
       <updated>1576260825938</updated>
       <workItem from="1576260828749" duration="4779000" />
+      <workItem from="1577444038628" duration="1091000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
