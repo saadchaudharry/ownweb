@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b308dbd-2ff2-45bc-abd7-0ac4d97ceafc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owneb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/owneb/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/owneb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/owneb/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576260825938</updated>
       <workItem from="1576260828749" duration="4779000" />
-      <workItem from="1577444038628" duration="1091000" />
+      <workItem from="1577444038628" duration="3986000" />
     </task>
     <servers />
   </component>
