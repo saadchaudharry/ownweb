@@ -3,88 +3,101 @@
 
 
 {% block body %}
-<div id='home' class="text-center  rounded-0">
 
-    <div class="row m-0 p-0">
 
-        <div class="col-md-6 bg-warning order-2 py-5">
-            <p class="lead py-3">welcome to studio!!</p>
-            <strong class="h1 text-justify py-3">We Develop & Design Website's And Software.</strong></br>
-            <br>
-            <strong class="text-justify py-3 ">We use HTML5, CSS3, jQuery, Bootstrap, Javacript, python, django, mongoDB, AWS, docker etc</strong></br></br>
-            <a href="#contact" class="btn btn-success btn-lg rounded-0 px-5">Contact Us</a>
-        </div>
+<div id='home' class=" headline rounded-0 bg-black m-0 p-0">
+<div class="row connt py-5 ">
 
-        <div class="col-md-6 order-1 d-none d-md-block bg-white my-5">
-          <img src="/media/logo.jpeg" class="img-fluid" style="max-width: 300px;max-height: 300px">
-        </div>
+  <div class="col-12 showr col-md-6 text-left text-white">
+    <h1 class="herohead font-weight-bold pt-2">Make Your Business Future-Proof</h1>
+     <p class="lead">We Develop & Design Website's And Software.</p>
+<p>We use HTML5, CSS3, jQuery, Bootstrap, Javacript, python, django, mongoDB, AWS, docker etc</p>
+
+<br>
+<a href="#contact" class="btn bg-royal text-white btn-lg lbt px-3 py-2">Contact Us</a>  </div>
+
+  <div class="col-12 col-md-6 m-0 p-0 text-center d-none d-md-block">
+    <img src="/media/logo.jpg" class="img-fluid prodimg p-0 m-0">
+  </div>
+
+</div>
+</div>
+
+
+
+
+
+
+{#<div class="col-lg-12 text-center m-0 p-0 pb-3 mb-4">#}
+{#  <h2 class="section-heading text-center  text-bold mt-0 pt-0" style="">Services <span class="text-warning">We</span> Offer</h2>#}
+{#    <hr class="bg-warning hrs">#}
+{#</div>#}
+<div class="jumbotron headline rounded-0 bg-royal m-0 p-0">
+  <div class="row connt py-5 ">
+
+
+    <div class="col-12 col-md-6  text-white order-md-2">
+
+      <h3 class="slim-text py-2">#1 most innovative brand in website development</h3>
+      <p class="lead  d-none d-md-block"> We help you to explore and growing your potential customer from resources and articles created by our talented programmerand  designers</p>
 
     </div>
 
+    <div class="col-12 col-md-6 order-md-1">
+        <div class="row mx-2 ">
+
+          <div class="col-6  m-0 p-0">
+            <div class="card bg-white m-0 p-0 mx-2 rounded text-center mb-3" style="max-width: 18rem;">
+              <div class="card-body">
+                <img src="/media/code.png" class="img-fluid" style="max-height: 84px;max-width: 84px">
+                <h6 class="card-text text-bold">web development</h6>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-6  m-0 p-0">
+            <div class="card bg-white m-0 p-0 mx-2 rounded text-center mb-3" style="max-width: 18rem;">
+              <div class="card-body">
+                <img src="/media/product.png" class="img-fluid" style="max-height: 84px;max-width: 84px">
+                <h6 class="card-text text-bold">branding</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6  m-0 p-0">
+            <div class="card bg-white m-0 p-0 mx-2 rounded text-center mb-3" style="max-width: 18rem;">
+              <div class="card-body">
+                <img src="/media/graphic.png" class="img-fluid" style="max-height: 84px;max-width: 84px">
+                <h6 class="card-text text-bold">graphic desiging</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 m-0 p-0">
+            <div class="card bg-white m-0 p-0 mx-2 rounded text-center mb-3" style="max-width: 18rem;">
+              <div class="card-body">
+                <img src="/media/seoo.png" class="img-fluid" style="max-height: 84px;max-width: 84px">
+                <h6 class="card-text text-bold">seo</h6>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="slim-text text-white py-2">for know more about services<a href="{% url 'service' %}"> click here ..........</a></h3>
+
+          </div>
+    </div>
+
+  </div>
 </div>
 
 <div class="jumbotron row mx-0">
-
-
-<div id="serv" class="row">
-
-<div class="col-lg-12 m-0 p-0 pb-3 mb-4">
-  <h2 class="section-heading text-center  text-bold mt-0 pt-0" style="">Services <span class="text-warning">We</span> Offer</h2>
-    <hr class="bg-warning hrs">
-</div>
-
-
-  <div class="col-12 col-md-6 media mb-1">
-    <img src="/media/ecomm.png" class="mr-3" alt="" style="max-height: 84Px;max-width: 84px">
-    <div class="media-body">
-      <h5 class="mt-0 mb-1">List-based</h5>
-      Cras sit amet nibh libero, in gravida nulla.
-    </div>
-  </div>
-<br>
-
-<div class="col-12 col-md-6 media mb-1">
-    <div class="media-body text-right">
-      <h5 class="mt-0 mb-1">Media object</h5>
-      Cras sit amet nibh libero, in gravida nulla.
-    </div>
-    <img src="/media/code-512.png" class="ml-3" alt="..."  style="max-height: 84Px;max-width: 84px">
-
-</div>
-<br>
-
-
-  <div class="col-12 col-md-6 media mb-1">
-    <img src="/media/code-512.png" class="mr-3" alt="..." style="max-height: 84Px;max-width: 84px">
-    <div class="media-body">
-      <h5 class="mt-0 mb-1">List-based</h5>
-      Cras sit amet nibh libero, in gravida nulla.
-    </div>
-  </div>
-<br>
-
-<div class="col-12 col-md-6 media mb-1">
-    <div class="media-body text-right">
-      <h5 class="mt-0 mb-1">Media object</h5>
-      Cras sit amet nibh libero, in gravida nulla.
-    </div>
-    <img src="/media/ecomm.png" class="ml-3" alt="... " style="max-height: 84Px;max-width: 84px">
-</div>
-
-
-
-
-</div>
-
-
   <!-- protfolio -->
-  <div id='port' class="col-lg-12 m-0 p-0 pb-3 my-4 border-bottom-warning">
-   <hr class="my-4" >
-      <h2 class="text-center text-warning text-bold mt-0 pt-0" >Portfolio</h2>
+  <div id='port' class="col-lg-12 m-0 p-0 pb-3 mb-4 border-bottom-warning">
+      <h2 class="text-center text-royal text-bold mt-0 pt-0" >Portfolio</h2>
       <hr class="bg-dark hrs">
   </div>
     {% for i in prod %}
-
     <div class="row featurette  mx-0">
         <div class="col-md-7 order-md-{{i.order_text }}">
           <h2 class=" m-0 featurette-heading">{{i.title}} </h2>
@@ -98,33 +111,40 @@
     </div>
         <br><br>
     {% endfor %}
-
   </div>
-</div>
 
 <!-- tetemonial -->
-<div class="col-lg-12 text-center  py-2">
-    <h3 class="section-heading text-uppercase">About Us</h3>
-          <!--<h5 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h5>-->
-   <hr>
-      <p class="container text-justify">We offers high quality and professional IT solutions and services to meet the evolving needs of businesses across the globe.
+<div class="jumbotron bg-white">
+  <div class="col-lg-12 text-center  py-2">
+
+<h3 class="section-heading text-royal text-uppercase">About Us</h3>
+      <hr class="bg-dark hrs">
+<!--<h5 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h5>-->
+<ul class="list-unstyled">
+<li class="media">
+<p class="container text-justify">We offers high quality and professional IT solutions and services to meet the evolving needs of businesses across the globe.
+
 We deliver innovative web solutions to clients by helping them identify their most important business and technology opportunities and capitalizing on them. We also provide solutions to help them overcome their most complex and critical challenges. </p>
-
-<span><h4 class="text-warning">Our mission</h4></span><br>
+</li>
+<li>
+<span><h4 class="text-royal">Our mission</h4></span><br>
 <p class="container">is to deliver best-in-class service and support, enriching customer experience and thus becoming the most successful Information Technology services provider in  terms of market share, quality, revenue, growth and margins.</p>
+</li>
+</ul>
+</div>
 
-        </div>
+</div>
 
     <!-- contact us -->
-<div id='contact' class=" py-2 bg-dark">
+<div id='contact' class=" py-2 bg-black">
     <div class="col-12 text-center py-1">
-          <h3 class="section-heading text-uppercase text-bold" style="color: #fed136">CONTACT US</h3>
+          <h3 class="section-heading text-uppercase text-bold text-white">CONTACT US</h3>
     </div>
 
     <div class="container">
-        <form id='demo-form' method="POST" action="" class="form-group container text-warning p-3">{% csrf_token %}
+        <form id='demo-form' method="POST" action="" class="form-group container text-white p-3">{% csrf_token %}
         {{ form|crispy }}
-        <input type="submit" class="btn btn-warning btn-lg">
+        <input type="submit" class="btn bg-royal text-white btn-lg">
         </form>
     </div>
 </div>

@@ -1,7 +1,7 @@
 from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from django.urls import reverse_lazy
-from django.views.generic import CreateView
+from django.views.generic import CreateView,ListView
 from .forms import Contactform
 from .models import Contact,Product,Price
 import json
@@ -14,17 +14,15 @@ class te(CreateView):
     template_name = 'default.html'
     success_url = reverse_lazy('test')
 
-    def get_context_data(self, *args, **kwargs):
+    def get_context_data(self,*args, **kwargs):
         context = super(te, self).get_context_data(*args, **kwargs)
         context['prod'] = Product.objects.all()
-        context['Price'] = Price.objects.all()
         return context
 
 
-
-
-
-
+class service(ListView):
+    template_name = 'service.html'
+    model = Price
 
 
 

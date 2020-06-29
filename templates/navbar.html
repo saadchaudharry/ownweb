@@ -1,5 +1,6 @@
-   <nav class="navbar navbar-expand-lg  navbar-dark bg-dark p-0 m-0 py-1 px-3">
-  <a class="navbar-brand mr-auto" href="#" style="color: #fed136">Hyperdec.com</a>
+   <nav class="navbar navbar-expand-lg  navbar-dark bg-black p-0 m-0 py-1 px-3">
+        <div class="container">
+  <a class="navbar-brand mr-auto " href="{% url "test" %}">Hyperdec.com</a>
 
   <button class="btn-warning-dark navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -9,10 +10,10 @@
 
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="naav" class="nav-link" href="#home">Home</a>
+        <a class="naav" class="nav-link" href="{% url "test" %}">Home</a>
       </li>
       <li>
-        <a class="naav" class="nav-link" href="#serv">Services</a>
+        <a class="naav" class="nav-link" href="{% url "service" %}">Services</a>
       </li>
       <li>
         <a class="naav" class="nav-link" href="#port">Portfolio</a>
@@ -22,4 +23,5 @@
       </li>
     </ul>
   </div>
+        </div>
 </nav>

@@ -4,21 +4,13 @@
     <list default="true" id="2b308dbd-2ff2-45bc-abd7-0ac4d97ceafc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owneb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/owneb/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/owneb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/owneb/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owneb/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/owneb/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quert/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/quert/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quert/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/quert/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quert/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/quert/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quert/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/quert/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quert/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/quert/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quert/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/quert/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quert/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/quert/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/static_root/admin/fonts/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static_cdn/static_root/admin/fonts/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,10 +39,16 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../uideno/uideno/templates/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static_cdn/media_root" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Saad\PycharmProjects\webstack\web\owneb\static_cdn\media_root" />
+      <recent name="C:\Users\Saad\PycharmProjects\webstack\web\owneb\static_cdn\static_root\admin\css" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -108,6 +106,12 @@
       <workItem from="1591509239505" duration="2852000" />
       <workItem from="1591597762941" duration="4868000" />
       <workItem from="1591605904814" duration="9870000" />
+      <workItem from="1591699765280" duration="3691000" />
+      <workItem from="1592414129253" duration="241000" />
+      <workItem from="1592510705420" duration="7790000" />
+      <workItem from="1592592370238" duration="1693000" />
+      <workItem from="1593369973719" duration="5548000" />
+      <workItem from="1593423175525" duration="2688000" />
     </task>
     <servers />
   </component>
