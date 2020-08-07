@@ -11,8 +11,9 @@
   <div class="col-12 showr col-md-6 text-left text-white">
     <h1 class="herohead font-weight-bold pt-2">Make Your Business Future-Proof</h1>
      <p class="lead">We Develop & Design Website's And Software.</p>
-<p>We use HTML5, CSS3, jQuery, Bootstrap, Javacript, python, django, mongoDB, AWS, docker etc</p>
-
+     <p>We use
+     <span id="typed">HTML5, CSS3, jQuery, Bootstrap, Javacript, python, django, mongoDB, AWS, docker etc</span>
+     </p>
 <br>
 <a href="#contact" class="btn bg-royal text-white btn-lg lbt px-3 py-2">Contact Us</a>  </div>
 
@@ -99,13 +100,15 @@
   </div>
     {% for i in prod %}
     <div class="row featurette  mx-0">
-        <div class="col-md-7 order-md-{{i.order_text }}">
+        <div class="col-md-7  order-md-{{i.order_text }}">
           <h2 class=" m-0 featurette-heading">{{i.title}} </h2>
           <h5 class="text-muted">{{i.subtitle}} </h5>
           <p class="lead text-left" style="overflow-wrap: break-word;">{{i.description}}</p><a href="{{i.site}}">( View )</a>
         </div>
-        <div class="col-md-5 order-md-{{i.order_img }}">
+        <div class="col-md-5  order-md-{{i.order_img }}">
+            <a href="{{i.site}}" target="_blank">
           <img src="/media/{{i.photo}}" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+            </a>
         </div>
           <hr>
     </div>

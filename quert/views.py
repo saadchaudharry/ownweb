@@ -38,8 +38,6 @@ class service(ListView):
 
 
 
-
-
     # def post(self, request):
     #     if request.method == "POST":
     #         clientkey = request.POST["g-recaptcha-response"]

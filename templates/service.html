@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>Hyperdec.com</title>
       {% include 'style.html' %}
+
   </head>
   <body class="container bg-royal">
 
@@ -27,18 +28,16 @@
     <div class="col-md-6 col-lg-4 ">
         <div class="card mb-4 shadow-sm text-left">
           <div class="card-header">
-            <h4 class="my-0 font-weight text-dark">{{ i.title }}</h4>
+            <h2 class="my-0 font-weight text-center heaad text-dark">{{ i.title }}</h2>
           </div>
-          <div class="card-body  text-dark">
-{#            <h1 class="card-title pricing-card-title text-royal">$5000</h1>#}
-{#            <hr>#}
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>{{ i.list }}</li>
-              <li>{{ i.list1 }}</li>
-              <li>{{ i.list2 }}</li>
-              <li>{{ i.list3 }}</li>
-              <li>{{ i.list4 }}</li>
-              <li>{{ i.list5 }}</li>
+          <div class="card-body text-center text-dark">
+
+           <img src="/media/{{i.img}}" class="img-fluid" style="max-height:100px;max-width:100px">
+           <hr class="bg-dark hrs2">
+
+
+              <p>{{ i.message }}</p>
+
 
             </ul>
             <a href="tel:9768890726" class="btn btn-lg btn-block bg-black text-white">contact us</a>
@@ -51,7 +50,7 @@
 
 </div>
 
-
+{% include 'footer.html' %}
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

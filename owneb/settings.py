@@ -25,7 +25,7 @@ SECRET_KEY = 's$tlt-e^na3e*fy8)s%^w3(qo&q#3+_fc2_3o_#vn43j9!$ac+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*','hyperdec.pythonanywhere.com']
 
 
 # Application definition
@@ -58,7 +58,7 @@ ROOT_URLCONF = 'owneb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': ['/home/hyperdec/owneb/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

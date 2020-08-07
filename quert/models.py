@@ -27,12 +27,8 @@ class Product(models.Model):
 
 class Price(models.Model):
     title       =models.CharField(max_length=50)
-    price       =models.IntegerField()
-    list        =models.CharField(max_length=120,null=True,blank=True)
-    list2        =models.CharField(max_length=120,null=True,blank=True)
-    list3        =models.CharField(max_length=120,null=True,blank=True)
-    list4        =models.CharField(max_length=120,null=True,blank=True)
-    list5       =models.CharField(max_length=120,null=True,blank=True)
+    img         =models.ImageField(upload_to='service_photos')
+    message     =models.TextField(max_length=1000)
 
     def __str__(self):
         return str(self.title)
