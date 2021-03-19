@@ -4,7 +4,7 @@ cfe==0.0.15
 chardet==3.0.4
 Django==2.2.7
 django-crispy-forms==1.8.0
-djangorestframework==3.10.3
+djangorestframework==3.11.2
 idna==2.8
 Pillow==6.2.1
 pycryptodome==3.9.4
