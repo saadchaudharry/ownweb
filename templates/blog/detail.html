@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block body %}
+{#        <h2 class="text-center alert-warning m-0 p-0" style="font-family:sans-serif">Uttar Bhartiye Mahasangh.</h2>#}
+
+    <div class="jumbotron mainshow rounded-0 my-0 py-2" style="font-family:sans-serif">
+<div class="card border-0 mb-3 my-0 rounded-0 container" >
+          <h2 class="card-title text-center"><u><b>{{ object.title }}</b></u></h2>
+
+  <img src="/media/{{ object.photo }}" class="card-img-top lool rounded" alt="..." style="max-height:480px;max-width:1400px">
+  <div class="card-body">
+          <small class="text-primary">{{ object.timestamp }}</small>
+
+      <p class="card-text small lead">{{ object.artical|safe }}</p>
+{#    <p class="card-text"><small class="text-muted">{{ object.timestamp }}</small></p>#}
+  </div>
+</div>
+    </div>
+{% endblock %}

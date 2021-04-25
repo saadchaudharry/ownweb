@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'crispy_forms',
     'quert',
+    'blog'
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
@@ -58,7 +59,7 @@ ROOT_URLCONF = 'owneb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/home/hyperdec/owneb/templates'],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -123,7 +124,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_DIRS = [os.path.join(BASE_DIR,'static_file'),]
+STATIC_DIRS = [os.path.join(BASE_DIR,'static_cdn'),]
 
 STATIC_ROOT = os.path.join(BASE_DIR,'static_cdn','static_root')
 

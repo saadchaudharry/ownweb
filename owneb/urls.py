@@ -15,14 +15,25 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from quert.views import te,service
+from quert.views import te,service,contact_us,sof,wev,data,erp,pri
+from blog.views import Bloglist,Blogdetail
 from django.conf.urls.static import static
 from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',te.as_view(),name='test'),
-    path('services',service.as_view(),name='service'),
+    path('contact/',contact_us.as_view(),name='contact_us'),
+    path('services/',service.as_view(),name='service'),
+    path('sof/',sof.as_view(),name='sof'),
+    path('wev/',wev.as_view(),name='wev'),
+    path('data/',data.as_view(),name='data'),
+    path('erp/',erp.as_view(),name='erp'),
+    path('privacy/',pri.as_view(),name='pri'),
+#     blog
+    path('blog/list', Bloglist.as_view(), name='Bloglist'),
+    path('events/<slug:slug>/', Blogdetail.as_view(), name="homedeatail"),
+
 ]
 
 if settings.DEBUG:

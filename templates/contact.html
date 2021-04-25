@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block body %}
+<div class=" bg-royal text-white text-center py-5">
+
+<h5 class="mt-3 pt-3">HYPERDEC</h5>
+<h1 class="herohead mb-3 pb-3">Contact us</h1>
+
+</div>
+    <br>
+<div class="jumbotron bg-white container animated bounceInDown">
+{#  <h1 class="display-4 fgrn3">Contact us</h1>#}
+{#  <small class="text-justify text-danger">For any kind of Enquriry</small>#}
+{#  <hr class="my-4">#}
+
+    <div class="row">
+    <div class="col-12 mainshow col-md-6 order-md-2">
+        <h1> Hyperdec</h1>
+        <h3 class="text-royal">We Develop & Design Technology.</h3>
+        <hr class="bg-warning" style="width: 40%; height: 2px;opacity: 100">
+        <h5 class="">Hyperdec@gmail.com</h5>
+        <hr class="bg-royal" style="width: 40%; height: 2px;opacity: 100">
+        <h5 class="">+91-9768890726</h5>
+        <br>
+        <p class="lead">Having trouble? Find the answer to your query here.</p>
+        <p>Don’t hesitate to contact us!</p>
+
+    </div>
+
+    <div class="col-12 col-md-6 order-md-1">
+    <form method="post" class="fgrn">{% csrf_token %}
+        {{ form|crispy }}
+        <br>
+      <button type="submit" class="btn btn-warning">Submit</button>
+    </form>
+    </div>
+
+
+
+</div>
+
+</div>
+
+{% endblock %}

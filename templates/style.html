@@ -1,43 +1,237 @@
-<style >
+    <style>
+    	#particles-js{
+    		height: 100vh;
+    		background-color: black;
+    		background-size: cover;
+    		background-position: cover;
+    	}
+                .lool{
+            object-fit: scale-down;
+        }
+
+/*.text{
+	position: absolute;
+	margin-left:5%;
+	margin-top: 13%;
+
+}*/
+
+.reset_selection {
+  color: #FFF;
+/*  background-color: #31727E;
+/**/  padding: 15px*/;
+}
+.reset_selection::-moz-selection {
+  background-color: #054948;
+  color: #fff;
+}
+.reset_selection::selection {
+  background-color: #054948;
+  color: #fff;
+}
+
+
+div.scroll {
+/*    margin: 4px, 4px;
+    padding: 4px;
+    background-color: #08c708;*/
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
 html{scroll-behavior: smooth}
 .bg-royal{background-color: #054948}
 .text-royal{color: #054948}
+.bg-grey{background-color: #f6f7f9}
+.text-grey{color: #f6f7f9}
 .bg-black{background-color: #000000}
 .slim-text{font-weight: lighter;}
-.hrs{height: 2px;width: 10%}
+.hrs{height: 2px;width: 50%}
 .hrs2{height: 2px;width: 40%}
-.naav{padding-right:50px;color:#FFFFFF}
+.naav{padding-right:50px;color:#FFFFFF;text-decoration:none}
 .heaad{font-size: 2.5em}
+.llink{text-decoration: none;color: white}
+
+
 /*small phone */
 @media only screen and (max-width: 480px){
-	.herohead{font-size: 2.5em}
+	.herohead{font-size: 2em}
+	.herohead2{font-size: 2em}
 	.heaad{font-size: 1.5em}
 	.connt{margin:0px 2px 0px }
+	.text{
+	position: absolute;
+	margin-left:5%;
+	margin-top: 30%;
+
+}
+
 
  }
 
 /*medium phone*/
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-	.herohead{font-size: 2.5em}
+	.herohead{font-size: 2em}
+	.herohead2{font-size: 2em}
 	.heaad{font-size: 1.5em}
 	.connt{margin:0px 12px 0px}
+	.text{
+	position: absolute;
+	margin-left:5%;
+	margin-top: 30%;
+
+}
+
 }
 
 
 /*table and small pc*/
 @media only screen and (min-width: 768px) and (max-width: 959px){
-	.herohead{font-size: 2.5em}
+	.herohead{font-size: 2em}
+	.herohead2{font-size: 3em}
 	.heaad{font-size: 1.5em}
 	.connt{margin:0px 12px 0px }
+	.text{
+	position: absolute;
+	margin-left:5%;
+	margin-top: 35%;
+
+}
+
 }
 
 /*pc*/
 @media only screen and (min-width: 959px){
-	.herohead{font-size: 3em}
+	.herohead{font-size: 3.4em}
+	.herohead2{font-size:3em}
 	.heaad{font-size: 2em}
 	.connt{margin:0px 80px 0px}
+	.text{
+	position: absolute;
+	margin-left:5%;
+	margin-top: 13%;
+}
+
 
 
 }
 
-</style>
+
+    </style>    <style type="text/css">
+    	#particles-js{
+    		height: 100vh;
+    		background-color: black;
+    		background-size: cover;
+    		background-position: cover;
+    	}
+/*.text{
+	position: absolute;
+	margin-left:5%;
+	margin-top: 13%;
+
+}*/
+
+.reset_selection {
+  color: #FFF;
+/*  background-color: #31727E;
+/**/  padding: 15px*/;
+}
+.reset_selection::-moz-selection {
+  background-color: #054948;
+  color: #fff;
+}
+.reset_selection::selection {
+  background-color: #054948;
+  color: #fff;
+}
+
+
+div.scroll {
+/*    margin: 4px, 4px;
+    padding: 4px;
+    background-color: #08c708;*/
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+html{scroll-behavior: smooth}
+.bg-royal{background-color: #054948}
+.text-royal{color: #054948}
+.bg-grey{background-color: #f6f7f9}
+.text-grey{color: #f6f7f9}
+.bg-black{background-color: #000000}
+.slim-text{font-weight: lighter;}
+.hrs{height: 2px;width: 50%}
+.hrs2{height: 2px;width: 40%}
+.naav{padding-right:50px;color:#FFFFFF}
+.heaad{font-size: 2.5em}
+
+
+/*small phone */
+@media only screen and (max-width: 480px){
+	.herohead{font-size: 2em}
+	.herohead2{font-size: 2em}
+	.heaad{font-size: 1.5em}
+	.connt{margin:0px 2px 0px }
+	.text{
+	position: absolute;
+	margin-left:5%;
+	margin-top: 30%;
+
+}
+
+
+ }
+
+/*medium phone*/
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+	.herohead{font-size: 2em}
+	.herohead2{font-size: 2em}
+	.heaad{font-size: 1.5em}
+	.connt{margin:0px 12px 0px}
+	.text{
+	position: absolute;
+	margin-left:5%;
+	margin-top: 30%;
+
+}
+
+}
+
+
+/*table and small pc*/
+@media only screen and (min-width: 768px) and (max-width: 959px){
+	.herohead{font-size: 2em}
+	.herohead2{font-size: 3em}
+	.heaad{font-size: 1.5em}
+	.connt{margin:0px 12px 0px }
+	.text{
+	position: absolute;
+	margin-left:5%;
+	margin-top: 35%;
+
+}
+
+}
+
+/*pc*/
+@media only screen and (min-width: 959px){
+	.herohead{font-size: 3.4em}
+	.herohead2{font-size:3em}
+	.heaad{font-size: 2em}
+	.connt{margin:0px 80px 0px}
+	.text{
+	position: absolute;
+	margin-left:5%;
+	margin-top: 13%;
+}
+
+
+
+}
+
+    </style>
