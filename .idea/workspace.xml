@@ -4,15 +4,8 @@
     <list default="true" id="2b308dbd-2ff2-45bc-abd7-0ac4d97ceafc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/owneb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/owneb/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quert/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/quert/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quert/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/quert/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quert/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/quert/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/erp.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/erp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/service.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +137,7 @@
       <workItem from="1620332760972" duration="5171000" />
       <workItem from="1620509489681" duration="1042000" />
       <workItem from="1620805942347" duration="1240000" />
-      <workItem from="1621176653744" duration="2626000" />
+      <workItem from="1621176653744" duration="3008000" />
     </task>
     <servers />
   </component>

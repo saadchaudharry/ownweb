@@ -58,3 +58,9 @@ class testimonial(models.Model):
     def __str__(self):
         return str(self.img)
 
+class documentt(models.Model):
+    name       =models.CharField(max_length=50)
+    files      =models.FileField(upload_to='DOC')
+
+    def __str__(self):
+        return str(self.name)
