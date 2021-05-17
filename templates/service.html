@@ -31,19 +31,19 @@
     <div class="col-md-6  cardd col-lg-4 ">
         <div class="card mb-4 shadow-sm text-left">
           <div class="card-header">
-            <h2 class="my-0 font-weight text-center heaad text-dark">{{ i.title }}</h2>
+            <h5 class="my-0 font-weight text-center  text-dark">{{ i.title }}</h5>
           </div>
           <div class="card-body text-center text-dark">
 
-           <img src="/media/{{i.img}}" class="img-fluid" style="max-height:100px;max-width:100px">
+           <img src="/media/{{i.img}}" class="card-img-top m-0 p-0" style="max-height:500px;max-width:500px">
            <hr class="bg-dark hrs2">
 
 
-              <p>{{ i.message }}</p>
+              <p>{{ i.head }}</p>
 
 
             </ul>
-            <a href="tel:9768890726" class="btn btn-lg btn-block bg-black text-white">contact us</a>
+            <a href="{% url 'service_details' i.id %}" class="btn btn-lg btn-block bg-black text-white">know more</a>
           </div>
         </div>
         </div>

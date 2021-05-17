@@ -8,7 +8,7 @@
 <h1 class="herohead reset_selection font-weight-bold pt-2 text-left">Reliable I.T and Software Development partner for growing businesses.
 
 </h1>
-<p class="lead heaad reset_selection" id>We Develop &amp; Design Website's And Software.</p>
+    <p class="lead heaad reset_selection">We design and develop <span id="typed"></span></p>
 
 <a href="#contact" class="btn bg-royal text-white btn-lg lbt px-3 py-2" data-sr-id="3" style="visibility: visible; opacity: 1; transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, opacity 2s cubic-bezier(0.5, 0, 0, 1) 2s;">Contact Us</a>
 
@@ -80,11 +80,15 @@
 		<div class="row mx-2 ">
             {% for i in case %}
 	    	  <div class="col-md-4">
-		          <div class="card mb-4 shadow-sm text-center ">
-		            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"></svg>
+		          <div class="card mb-4 shadow-sm text-left ">
+                        <img src="/media/{{ i.img }}"  class="card-img-top" alt="..." style="max-height:500px;max-width:500px">
+
+{#		            <img class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">#}
 		            <div class="card-body">
-		              <h4 class="card-text text-bold text-center">{{ i.title }}</h4>
-		              <p class="card-text text-muted">{{ i.message }}</p>
+		              <h4 class="card-text text-bold">{{ i.title }}</h4>
+		              <p class="card-text text-muted">{{ i.head }}</p>
+                        <a class="btn btn-primary" href="{% url 'service_details' i.id %}"> view detail</a>
+
 		            </div>
 		          </div>
               </div>
@@ -116,11 +120,12 @@
 
 
                     {% for i in client %}
-					<img src="/media/{{ i.img }}" class="mx-2" style="max-height:{{  i.height }}px;max-width: {{ i.width }}px">
+                        <a href="{{ i.site }}"  target="_blank">
+					<img src="/media/{{ i.img }}" class="mx-2" style="max-height:{{  i.height }}px;max-width: {{ i.width }}px"></a>
                     {% endfor %}
 
      			</div>
-1
+
 			</div>
 
 		</div>
@@ -138,17 +143,18 @@
 	<h1 class="my-4 ">“You are not your resume;<BR>
 	you are your work!”</h1>
 	<BR>
-	<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-       <img src="img/sf.png" class="d-block w-100" alt="..." style="max-width: 50%;max-height:50% ">
-
+      <img src="/media/testimonial/Cover_6PVirAH.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/sf.png" class="d-block w-100" alt="..." style="max-width: 50%;max-height:50% ">
+      <img src="/media/testimonial/Cover_2.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/sf.png" class="d-block w-100" alt="..." style="max-width: 50%;max-height:50% ">
+      <img src="/media/testimonial/Cover_3.png" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -162,10 +168,6 @@
 </div>
 
 
-<br>
-		<div class="d-grid gap-2 col-2 mx-auto">
-		  <button class="btn btn-outline-warning rounded-pill" type="button">Button</button>
-		</div>
 
 
 	</DIV>

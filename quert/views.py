@@ -1,9 +1,9 @@
 from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from django.urls import reverse_lazy
-from django.views.generic import CreateView,ListView,TemplateView
+from django.views.generic import CreateView,ListView,TemplateView,DetailView
 from .forms import Contactform
-from .models import Contact,Product,Price,client
+from .models import Contact,Product,Price,client,testimonial
 import json
 # Create your views here.
 
@@ -19,11 +19,16 @@ class te(CreateView):
         context['prod'] = Product.objects.all()
         context['case'] = Price.objects.filter(star=True).all()
         context['client'] = client.objects.all()
+        context['testimonial'] = testimonial.objects.all()
         return context
 
 
 class service(ListView):
     template_name = 'service.html'
+    model = Price
+
+class service_details(DetailView):
+    template_name = 'serviceblog.html'
     model = Price
 
 class contact_us(CreateView):

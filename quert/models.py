@@ -28,6 +28,10 @@ class Product(models.Model):
 class Price(models.Model):
     title       =models.CharField(max_length=50)
     img         =models.ImageField(upload_to='service_photos')
+    img1        =models.ImageField(upload_to='service_photos/IMG1',blank=True,null=True)
+    img2        =models.ImageField(upload_to='service_photos/IMG2',blank=True,null=True)
+    img3        =models.ImageField(upload_to='service_photos/IMG3',blank=True,null=True)
+    head        =models.CharField(max_length=50,default='This is heading')
     message     =models.TextField(max_length=1000)
     star        =models.BooleanField(blank=True,null=True,default=False)
 
@@ -43,6 +47,14 @@ class client(models.Model):
     img        =models.ImageField(upload_to='logo')
     height     =models.IntegerField()
     width      =models.IntegerField()
+    site       =models.CharField(max_length=50,default='#')
+
 
     def __str__(self):
         return str(self.name)
+
+class testimonial(models.Model):
+    img        =models.ImageField(upload_to='testimonial')
+    def __str__(self):
+        return str(self.img)
+

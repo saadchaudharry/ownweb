@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block body %}
+{#        <h2 class="text-center alert-warning m-0 p-0" style="font-family:sans-serif">Uttar Bhartiye Mahasangh.</h2>#}
+
+    <div class="jumbotron mainshow rounded-0 my-0 py-2" style="font-family:sans-serif">
+<div class="card border-0 mb-3 my-0 rounded-0 container" >
+          <h2 class="card-title text-left"><b>{{ object.title }}</b></h2>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+      {% if object.img1 != none %}
+    <div class="carousel-item active">
+      <img src="/media/{{ object.img1 }}" class="img-fluid" alt="...">
+    </div>
+      {% endif %}
+    {% if object.img3 != none %}
+    <div class="carousel-item">
+      <img src="/media/{{ object.img2 }}" class="img-fluid" alt="...">
+    </div>
+        {% endif %}
+    {% if object.img3 != none %}
+    <div class="carousel-item">
+      <img src="/media/{{ object.img3 }}" class="img-fluid" alt="...">
+    </div>
+          {% endif %}
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+{#  <img src="/media/{{ object.photo }}" class="card-img-top lool rounded" alt="..." style="max-height:480px;max-width:1400px">#}
+  <div class="card-body">
+          <small class="text-primary">{{ object.timestamp }}</small>
+
+      <p class="card-text small lead">{{ object.message|safe }}</p>
+{#    <p class="card-text"><small class="text-muted">{{ object.timestamp }}</small></p>#}
+  </div>
+</div>
+    </div>
+{% endblock %}
