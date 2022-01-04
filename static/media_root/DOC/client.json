@@ -1,0 +1,57 @@
+[
+{
+    "model": "quert.client",
+    "pk": 1,
+    "fields": {
+        "name": "CaptainFloats",
+        "img": "logo/CaptainFloats.png",
+        "height": 200,
+        "width": 200,
+        "site": "https://captainfloats.com/"
+    }
+},
+{
+    "model": "quert.client",
+    "pk": 2,
+    "fields": {
+        "name": "hybridox",
+        "img": "logo/HybridOX.png",
+        "height": 100,
+        "width": 100,
+        "site": "https://hybridoxautomation.com/"
+    }
+},
+{
+    "model": "quert.client",
+    "pk": 3,
+    "fields": {
+        "name": "OISM",
+        "img": "logo/GST_INV_FORMAT_CGST__SGST_NEW_1_3960_image001.png",
+        "height": 140,
+        "width": 140,
+        "site": "https://www.oism.in/"
+    }
+},
+{
+    "model": "quert.client",
+    "pk": 4,
+    "fields": {
+        "name": "kscforing",
+        "img": "logo/logoksc.png",
+        "height": 100,
+        "width": 100,
+        "site": "#"
+    }
+},
+{
+    "model": "quert.client",
+    "pk": 5,
+    "fields": {
+        "name": "aftab print",
+        "img": "logo/android-chrome-512x512.png",
+        "height": 100,
+        "width": 100,
+        "site": "#"
+    }
+}
+]

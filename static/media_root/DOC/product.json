@@ -1,0 +1,54 @@
+[
+{
+    "model": "quert.product",
+    "pk": 3,
+    "fields": {
+        "title": "Software Development",
+        "subtitle": "Mfg.Forging and Fastener",
+        "photo": "photos/sf1.png",
+        "description": "<p class=\"lead\"> Do you have a daring idea? We can bring it to reality. We offer custom tailored solutions that will cover your needs and solve your problems.</p>  \t\t\t\t<p class=\"lead\" >We tailor custom software for your specific needs and requests. At later stages we would gladly help you add new features and make adjustments so your software keeps supporting your new business needs.</p>",
+        "site": "/sof/",
+        "order_img": 2,
+        "order_text": 1
+    }
+},
+{
+    "model": "quert.product",
+    "pk": 4,
+    "fields": {
+        "title": "WEB & APP DEVELOPMENT",
+        "subtitle": "The complete electronic hub.",
+        "photo": "photos/sf2.png",
+        "description": "<p class=\"lead\"> We make from simple Web Design Services to customize e-commerce responsive website, we have highly talented experienced experts which can converts your vision to website..</p> <!--  \t\t\t\t<p class=\"lead\" >We tailor custom software for your specific needs and requests. At later stages we would gladly help you add new features and make adjustments so your software keeps supporting your new business needs.</p> --> \t\t\t\t      <p class=\"lead \"> We help you to explore and growing your potential customer from web and app created by our talented programmerand  designers</p>",
+        "site": "/wev/",
+        "order_img": 1,
+        "order_text": 2
+    }
+},
+{
+    "model": "quert.product",
+    "pk": 5,
+    "fields": {
+        "title": "Data Mining",
+        "subtitle": "It\u2019ll blow your mind",
+        "photo": "photos/sf4.png",
+        "description": "<p class=\"lead\"> Do you need some specific data? We know how to obtain it. From scraping to data preparation and analytics we got you covered.</p>  \t\t\t\t<p class=\"lead\" >Successful businesses effectively use the abundance of data they have access to. This enables them to make more reliable forecasts, data-driven decisions and pursue better strategies..</p>",
+        "site": "/data/",
+        "order_img": 2,
+        "order_text": 1
+    }
+},
+{
+    "model": "quert.product",
+    "pk": 6,
+    "fields": {
+        "title": "Custom ERP Software",
+        "subtitle": "Cutom ERP Software",
+        "photo": "photos/sf5.png",
+        "description": "<p class=\"lead\"> Boring, repetitive tasks is not a human\u2019s job. Let us build custom ERP sofware so you can work on growing your business..</p>  \t\t\t\t<p class=\"lead\" >Let our system handle your sale follow-ups, quotations, work-order , invoicing,challan,P.O and accounts, repetitive market-research. Start using your time for strategic activities..</p>",
+        "site": "/erp/",
+        "order_img": 1,
+        "order_text": 2
+    }
+}
+]

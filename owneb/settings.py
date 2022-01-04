@@ -25,7 +25,7 @@ SECRET_KEY = 's$tlt-e^na3e*fy8)s%^w3(qo&q#3+_fc2_3o_#vn43j9!$ac+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','hyperdec.pythonanywhere.com']
+ALLOWED_HOSTS = ['3.19.66.212','hyperdec.com']
 
 
 # Application definition
@@ -59,7 +59,7 @@ ROOT_URLCONF = 'owneb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': ['/home/ubuntu/django/owneb/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -124,11 +124,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_DIRS = [os.path.join(BASE_DIR,'static_cdn'),]
+STATIC_DIRS = [os.path.join(BASE_DIR,'static')]
 
-STATIC_ROOT = os.path.join(BASE_DIR,'static_cdn','static_root')
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
 
 MEDIA_URL  = '/media/'
 
-MEDIA_ROOT = os.path.join(BASE_DIR,'static_cdn','media_root')
+MEDIA_ROOT = os.path.join(BASE_DIR,'static','media_root')
 

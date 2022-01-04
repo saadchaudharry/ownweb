@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 
 {% block body %}
+
     <style>
       .bg-blue{background: #1a1b1f;color: white}
   .bg-green{background: #94d751;color: white}
@@ -11,22 +12,22 @@
  <div class=" bg-blue " style="background-color: #1a1b1f">
     <div class="container py-5">
     <div class="row  p-0 m-0 py-5">
-      <div class="col-md-6 cardd1 col-12 ">
+      <div class="col-md-6 cardd1 col-12 " data-sr-id="15" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.3s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1.3s cubic-bezier(0.5, 0, 0, 1) 0s;">
       <h1 class="text-green" style="font-weight: normal;">Intelligent and Customised<br> ERP management system </h1><br>
           <p class="text-left lead">Discover the modern ERP system that utilises artificial intelligence to transform your business processes – in the cloud or on-premise.</p>
 <br>
           <p class="text-left lead">our system handle your sale follow-ups,<a href="#" class="text-warning" style="text-decoration: none"> quotations, work-order ,invoicing ,challan ,P.O</a> and accounts, repetitive market-research. <a href="#mainids">(VIEW)</a></p>
 <br>
-Simple as Excel & Impactful as SAP
-      </p>
+Simple as Excel &amp; Impactful as SAP
+      <p></p>
         <br>
 
-        <button type="button" class="btn btn-primary ">Large button</button>
-        <button type="button" class="btn btn-success bg-green ">Large button</button>
+        <a href="https://youtu.be/9bxW1y7PyxQ" class="btn btn-primary ">Watch video</a>
+        <a href="{% url 'contact_us' %}"  class="btn btn-success ">Contact us for demo</a>
       </div>
 
-      <div class="col-md-6 col-12 cardd text-center my-3">
-        <img src="/media/img/main3.jpg" class="img-fluid" >
+      <div class="col-md-6 col-12 cardd text-center my-3" data-sr-id="0" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0s;">
+        <img src="/media/img/main3.jpg" class="img-fluid">
       </div>
     </div>
     </div>
@@ -86,61 +87,57 @@ Simple as Excel & Impactful as SAP
 
 
 <div class="row m-0 p-0">
-    <div class="col-12 col-md-6 order-md-1 ">
-        <h1 >C.R.M</h1>
-        <small>customer relatinship manager</small>
-        <hr class="bg-green" style="width: 40%; height: 2px;opacity: 100">
-                <p class="lead"> Boring, repetitive tasks is not a human’s job. Let us build custom ERP sofware so you can work on growing your business..</p>          <p class="lead">Let our system handle your sale follow-ups, quotations, work-order , invoicing,challan,P.O and accounts, repetitive market-research. Start using your time for strategic activities..</p>
-         <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>
+
+    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-2" data-sr-id="2" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0s;">
+      <img src="/media/img/pic6.png" class="img-fluid ">
     </div>
 
-    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-2">
-      <img src="/media/img/pic6.png" class="img-fluid ">
+    <div class="col-12 col-md-6 order-md-1 ">
+        <h1>C.R.M</h1>
+        <small>customer relatinship manager</small>
+        <hr class="bg-green" style="width: 40%; height: 2px;opacity: 100">
+                <p class="lead"> CRM software (customer relationship management software) is a tool that's designed to help your organization offer your customers a unique and seamless experience, as well as build better relationships by providing a complete picture of all customer interactions, keeping track of your sales, organizing and prioritizing .</p>
+{#         <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>#}
     </div>
 </div>
 
 
 <div class="row m-0 p-0">
-
+    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-1" data-sr-id="3" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0s;">
+      <img src="/media/img/pic7.png" class="img-fluid ">
+    </div>
 
     <div class="col-12 col-md-6 order-md-2 ">
         <h1>Lead management system</h1>
 <!--         <small>customer relatinship manager</small>
  -->        <hr class="bg-warning" style="width: 40%; height: 2px;opacity: 100">
-                <p class="lead"> Boring, repetitive tasks is not a human’s job. Let us build custom ERP sofware so you can work on growing your business..</p>          <p class="lead">Let our system handle your sale follow-ups, quotations, work-order , invoicing,challan,P.O and accounts, repetitive market-research. Start using your time for strategic activities..</p>
-
-         <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>
+                <p class="lead"> Manage and Follow Up With Leads All in One Place <br>Complete sales activities, see detailed company and contact records, and view communication history in one place so you can manage leads without the hassle.</p>
     </div>
-
-    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-1">
-      <img src="/media/img/pic7.png" class="img-fluid ">
-    </div>
-
-
 </div>
+
+
 
 <hr>
 <div class="row m-0 p-0">
+
+    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-2" data-sr-id="4" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0s;">
+      <img src="/media/img/pic8.png" class="img-fluid ">
+    </div>
     <div class="col-12 col-md-6 order-md-1 ">
         <h1>Track all your <span class="text-danger">Sales</span> and <span class="text-danger">Purchase</span>Transactions</h1>
 <!--         <small>customer relatinship manager</small>
  -->        <hr class="bg-green" style="width: 40%; height: 2px;opacity: 100">
-                <p class="lead"> Boring, repetitive tasks is not a human’s job. Let us build custom ERP sofware so you can work on growing your business..</p>          <p class="lead">Let our system handle your sale follow-ups, quotations, work-order , invoicing,challan,P.O and accounts, repetitive market-research. Start using your time for strategic activities..</p>
-
-         <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>
+                <p class="lead"> <span class="color--primary">✓</span> Get a timeline view of every activity in sales and purchase transactions <br>
+                                    <span class="color--primary">✓</span> Post comments real-time and tag your team members for better collaboration <br>
+                                    <span class="color--primary">✓</span> Faster documentation and proactive tracking always keeps you ahead of deadlines  </p>
 
     </div>
-
-    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-2">
-      <img src="/media/img/pic8.png" class="img-fluid ">
-    </div>
-
 </div>
 
 
 <div class="row m-0 p-0" id="mainids">
 
-    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-1">
+    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-1" data-sr-id="5" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0s;">
       <img src="/media/img/pic9.gif" class="img-fluid ">
     </div>
 
@@ -149,35 +146,49 @@ Simple as Excel & Impactful as SAP
         <h1>Automate all your <span class="text-primary">Invoicing</span> and <span class="text-primary">paper work</span></h1>
 <!--         <small>customer relatinship manager</small>
  -->        <hr class="bg-warning" style="width: 40%; height: 2px;opacity: 100"><br>
-                <p class="lead"> Boring, repetitive tasks is not a human’s job. Let us build custom ERP sofware so you can work on growing your business..</p>          <p class="lead">Let our system handle your sale follow-ups, quotations, work-order , invoicing,challan,P.O and accounts, repetitive market-research. Start using your time for strategic activities..</p>
+                <p class="lead"> Boring, repetitive tasks is not a human’s job. Let us Our  ERP sofware so you can work on growing your business</p>          <p class="lead">Let our system handle your sale follow-ups, quotations, work-order , invoicing,challan,P.O and accounts, repetitive market-research. Start using your time for strategic activities.</p>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <ul>
+                            <li>Quotations <a href="/media/DOC/quotations_no2107May_2_2021M_s.SCIENTIFIC_DEVICES_BOMBAY_PVT._LTD.pdf">(View)</a></li>
+                            <li>Work-order <a href="/media/DOC/workorder_no_210502_05_2021M_s.SCIENTIFIC_DEVICES_BOMBAY_PVT._LTD.pdf">(View)</a></li>
+                            <li>Invoice    <a href="/media/DOC/INVOICE_no__GI_210221_05_2021M_s.SCIENTIFIC_DEVICES_BOMBAY_PVT._LTD.pdf">(View)</a></li>
+                            <li>Delivery Challan <a href="/media/DOC/challan_no___CF_DC_210221_05_2021M_s.SCIENTIFIC_DEVICES_BOMBAY_PVT._LTD.pdf">(View)</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <ul>
+                            <li>Proforma invoice <a href="/media/DOC/Performa_no___CF_PI_210321_05_2021M_s.SCIENTIFIC_DEVICES_BOMBAY_PVT._LTD.pdf">(View)</a></li>
+                            <li>Purchase order <a href="/media/DOC/PO_no___CF_PO_210302_05_2021V__V_Pharma_Industries.pdf">(View)</a></li>
+                            <li>Guarantee Certificate <a href="/media/DOC/ga.pdf">(View)</a></li>
+                        </ul>
+                    </div>
 
-         <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>
+                </div>
+
+{#         <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>#}
     </div>
 
 </div>
 
 <hr>
 <div class="row m-0 p-0">
-    <div class="col-12 col-md-6 order-md-1 ">
-        <h1>Accounting & Finance</h1>
-<!--         <small>customer relatinship manager</small>
- -->        <hr class="bg-green" style="width: 40%; height: 2px;opacity: 100">
-                <p class="lead"> Boring, repetitive tasks is not a human’s job. Let us build custom ERP sofware so you can work on growing your business..</p>          <p class="lead">Let our system handle your sale follow-ups, quotations, work-order , invoicing,challan,P.O and accounts, repetitive market-research. Start using your time for strategic activities..</p>
-
-         <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>
-
-    </div>
-
-    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-2">
+    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-2" data-sr-id="6" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0s;">
       <img src="/media/img/pic10.png" class="img-fluid ">
     </div>
 
+    <div class="col-12 col-md-6 order-md-1 ">
+        <h1>Accounting &amp; Finance</h1>
+<!--         <small>customer relatinship manager</small>
+ -->        <hr class="bg-green" style="width: 40%; height: 2px;opacity: 100">
+                <p class="lead"> Automate accounting tasks &amp; conduct banking activities with one ERP solution. Maintain financial reports up to date and manage cash flows efficiently.</p>
+    </div>
 </div>
 
 
 <div class="row m-0 p-0">
 
-    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-1">
+    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-1" data-sr-id="7" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0s;">
       <img src="/media/img/pic11.png" class="img-fluid ">
     </div>
 
@@ -185,35 +196,31 @@ Simple as Excel & Impactful as SAP
         <h1>Get all <span class="text-danger">Report</span> in PDF for better analysis </h1>
 <!--         <small>customer relatinship manager</small>
  -->        <hr class="bg-warning" style="width: 40%; height: 2px;opacity: 100"><br>
-                <p class="lead"> Boring, repetitive tasks is not a human’s job. Let us build custom ERP sofware so you can work on growing your business..</p>          <p class="lead">Let our system handle your sale follow-ups, quotations, work-order , invoicing,challan,P.O and accounts, repetitive market-research. Start using your time for strategic activities..</p>
-
-         <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>
+                <p class="lead"> Create ad-hoc reports and conduct in-depth analysis powered by real-time as well as historical business data.</p>
     </div>
 
 </div>
 
 <hr>
 <div class="row m-0 p-0">
+     <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-2" data-sr-id="8" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0s;">
+      <img src="/media/img/pic12.png" class="img-fluid ">
+    </div>
+
     <div class="col-12 col-md-6 order-md-1 ">
         <h1>Inventory Control</h1>
 <!--         <small>customer relatinship manager</small>
  -->        <hr class="bg-green" style="width: 40%; height: 2px;opacity: 100">
-                <p class="lead"> Boring, repetitive tasks is not a human’s job. Let us build custom ERP sofware so you can work on growing your business..</p>          <p class="lead">Let our system handle your sale follow-ups, quotations, work-order , invoicing,challan,P.O and accounts, repetitive market-research. Start using your time for strategic activities..</p>
+                <p class="lead"> Stay updated with the availability of raw materials/items, and closely monitor their movement.Run real-time updates, valuations, and pricing impact reports.</p>
 
-         <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>
 
     </div>
-
-    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-2">
-      <img src="/media/img/pic12.png" class="img-fluid ">
-    </div>
-
 </div>
 
 
 <div class="row m-0 p-0">
 
-    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-1">
+    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-1" data-sr-id="9" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0s;">
       <img src="/media/img/pic13.png" class="img-fluid ">
     </div>
 
@@ -221,69 +228,68 @@ Simple as Excel & Impactful as SAP
         <h1><span class="text-primary">Complete visibility</span> of your <span class="text-primary">stock</span> movement </h1>
 <!--         <small>customer relatinship manager</small>
  -->        <hr class="bg-warning" style="width: 40%; height: 2px;opacity: 100"><br>
-                <p class="lead"> Boring, repetitive tasks is not a human’s job. Let us build custom ERP sofware so you can work on growing your business..</p>          <p class="lead">Let our system handle your sale follow-ups, quotations, work-order , invoicing,challan,P.O and accounts, repetitive market-research. Start using your time for strategic activities..</p>
-
-         <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>
+<p class="lead"> <span class="color--primary">✓</span> Quickly glance at available stock while receiving new order <br>
+                                    <span class="color--primary">✓</span> Prevent shortage of critical raw material <br>
+                                    <span class="color--primary">✓</span> Use B.O.M to achieve end-to-end item tracing </p>
     </div>
 
 </div>
 
 <div class="row m-0 p-0">
-    <div class="col-12 col-md-6 order-md-1 ">
-        <h1>Make <span class="text-danger">(B.O.M)</span> of product to get all precise report</h1>
-        <small>Batch of manufacture</small>
-        <hr class="bg-green" style="width: 40%; height: 2px;opacity: 100">
-                <p class="lead"> Boring, repetitive tasks is not a human’s job. Let us build custom ERP sofware so you can work on growing your business..</p>          <p class="lead">Let our system handle your sale follow-ups, quotations, work-order , invoicing,challan,P.O and accounts, repetitive market-research. Start using your time for strategic activities..</p>
-
-         <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>
-
-    </div>
-
-    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-2">
+    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-2" data-sr-id="10" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0s;">
       <img src="/media/img/pic14.png" class="img-fluid ">
     </div>
 
+    <div class="col-12 col-md-6 order-md-1 ">
+        <h1>Make <span class="text-danger">(B.O.M)</span> of product to get all precise report</h1>
+{#        <small>Batch of manufacture</small>#}
+        <hr class="bg-green" style="width: 40%; height: 2px;opacity: 100">
+                <p class="lead">Isn't it fascinating to witness the inventory stock and work order linked as the purchase and production department is keeping track of the stocks in collaboration with the sales team's input and quotation?
+we have developed a smart algorithm with interconnects your purchase, production and sales team by automatically adding or reducing the inventory after the bill of material has been made for a specific order..</p>
+
+
+    </div>
 </div>
 
 
 <div class="row m-0 p-0">
 
-    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-1">
+    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-1" data-sr-id="11" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0s;">
       <img src="/media/img/pic15.png" class="img-fluid ">
     </div>
 
     <div class="col-12 col-md-6 order-md-2 ">
         <h1><span class="text-primary">Issue-workorder</span> directly to automate your <span class="text-primary">stock history</span> </h1>
 <!--         <small>customer relatinship manager</small>
- -->        <hr class="bg-warning" style="width: 40%; height: 2px;opacity: 100"><br>
-                <p class="lead"> Boring, repetitive tasks is not a human’s job. Let us build custom ERP sofware so you can work on growing your business..</p>          <p class="lead">Let our system handle your sale follow-ups, quotations, work-order , invoicing,challan,P.O and accounts, repetitive market-research. Start using your time for strategic activities..</p>
+ -->        <hr class="bg-warning" style="width: 40%; height: 2px;opacity: 100">
+                <p class="lead"> Issuing a work order used to be a hectic task cause keeping an eye on stocks manually was not possible every time we issue a work order.
+Our software's schema facilitates your company's smooth operation covering your procurement, sales and production departments needs by adding or subtracting the inventory's stock.</p>
 
-         <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>
+{#         <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>#}
     </div>
 
 </div>
 <hr>
 <div class="row m-0 p-0">
+
+    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-2" data-sr-id="12" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0s;">
+      <img src="/media/img/pic16.png" class="img-fluid ">
+    </div>
     <div class="col-12 col-md-6 order-md-1 ">
         <h1>Advance Authentication System</h1>
 <!--         <small>Batch of manufacture</small>
  -->        <hr class="bg-green" style="width: 40%; height: 2px;opacity: 100">
-                <p class="lead"> Boring, repetitive tasks is not a human’s job. Let us build custom ERP sofware so you can work on growing your business..</p>          <p class="lead">Let our system handle your sale follow-ups, quotations, work-order , invoicing,challan,P.O and accounts, repetitive market-research. Start using your time for strategic activities..</p>
+                <p class="lead"> Data is the heart of the company and your mature leads and client base which your team has worked hard to gain needs to be secure hence our software is designed to prevent such data theft majorly happening due to the pen drive-data-theft or printing your client base.</p>
 
          <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>
 
     </div>
-
-    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-2">
-      <img src="/media/img/pic16.png" class="img-fluid ">
-    </div>
-
 </div>
 
 
 <div class="row m-0 p-0">
 
-    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-1">
+    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-1" data-sr-id="13" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0s;">
       <img src="/media/img/pic17.png" class="img-fluid ">
     </div>
 
@@ -292,57 +298,52 @@ Simple as Excel & Impactful as SAP
       <h1>Advanced group authentication</h1>
        <small>Give access to only required section to your staff</small>
 
-        <hr class="bg-warning" style="width: 40%; height: 2px;opacity: 100"><br>
-                <p class="lead"> Boring, repetitive tasks is not a human’s job. Let us build custom ERP sofware so you can work on growing your business..</p>          <p class="lead">Let our system handle your sale follow-ups, quotations, work-order , invoicing,challan,P.O and accounts, repetitive market-research. Start using your time for strategic activities..</p>
+        <hr class="bg-warning" style="width: 40%; height: 2px;opacity: 100">
+                <p class="lead">Our Software prevents unwanted departmental access, it has a secure structure in which you as a superuser only has the power to give or remove accessibility to limit the use of your company's software within your trusted employees only.</p>
 
-         <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>
+{#         <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>#}
     </div>
 
 </div>
 
 <hr>
 <div class="row m-0 p-0">
+    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-2" data-sr-id="14" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0s;">
+      <img src="/media/img/pic18.png" class="img-fluid ">
+    </div>
+
     <div class="col-12 col-md-6 order-md-1 ">
         <h1>Operating system independent</h1>
 <!--         <small>Batch of manufacture</small>
  -->        <hr class="bg-green" style="width: 40%; height: 2px;opacity: 100">
-                <p class="lead"> Boring, repetitive tasks is not a human’s job. Let us build custom ERP sofware so you can work on growing your business..</p>          <p class="lead">Let our system handle your sale follow-ups, quotations, work-order , invoicing,challan,P.O and accounts, repetitive market-research. Start using your time for strategic activities..</p>
+        <p class="lead">Our system is programmed to run on any OS . It must appropriately adapt to<b> Windows,linux,Mac-os,chrome-os ,iOS, Android, and Windows Phone</b> — amongst other operating systems. </p>
 
-         <a href="/erp/" class="btn bg-royal rounded-pill text-white" type="button">Read more</a>
+    </div>
+</div>
+
+<div class="row m-0 p-0">
+    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-1" data-sr-id="14" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0s;">
+      <img src="/media/testimonial/cloudd.jpeg" class="img-fluid ">
+    </div>
+
+
+    <div class="col-12 col-md-6 order-md-2 ">
+        <h1>Landscape Options<span class="text-danger">(cloud and On premise)</span></h1>
+<!--         <small>Batch of manufacture</small>
+ -->        <hr class="bg-green" style="width: 40%; height: 2px;opacity: 100">
+        <p class="lead"><h4>Cloud</h4>Benefit from the full value of Our E.R.P, with we (hyperdec) managing your IT infrastructure on powerful hyperscaler clouds. Move to the cloud while safeguarding prior investments and minimise risk and cost. </p>
+        <p class="lead"><h4>On premise</h4> Optimise your capacity for specialisation by deploying our System  in your own data centre or Office premise to customise and extend the suite with complete control of your environment.</p>
 
     </div>
 
-    <div class="col-12 col-md-6 cardd text-center m-0 p-0  order-md-2">
-      <img src="/media/img/pic18.png" class="img-fluid ">
-    </div>
 
 </div>
+
 
 </div>
 <br>
 <br>
 
-<script>
-
-    ScrollReveal.debug = true;
-
-   window.sr= ScrollReveal();
-
-    sr.reveal('.cardd',{
-    duration:1500,
-    origin:'bottom',
-    distance:'100px',
-    viewFactor:0.1,
-   });
-
-    sr.reveal('.cardd1',{
-    duration:1300,
-    origin:'left',
-    distance:'200px',
-    viewFactor:0.1,
-   });
-
-  </script>
 
 
 {##}
